@@ -1,8 +1,11 @@
+import Card from "./components/Card/Card.jsx";
+
 function App() {
   return (
-    <div>
-      <h1>React Template</h1>
-    </div>
+    <main>
+      <h1 className="visually-hidden">Stats Preview Card Component</h1>
+      <Card />
+    </main>
   );
 }
 

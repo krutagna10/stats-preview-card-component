@@ -1,0 +1,29 @@
+.card {
+  max-width: 56rem;
+  display: grid;
+}
+
+.card__image-wrapper {
+  height: 100%;
+  border: 2px solid red;
+}
+
+.card__image {
+  object-fit: cover;
+  max-width: 100% !important;
+  height: 100% !important;
+}
+
+.card__title {
+  font-size: var(--fs-400);
+}
+
+.card__content {
+  padding: 5rem;
+}
+
+@media (min-width: 48em) {
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
