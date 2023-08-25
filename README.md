@@ -1,3 +1,13 @@
-# React Template
+# Stats Preview Card Component
 
-This repository provides a React template powered by Vite, a fast build tool and development server.
+### Links
+
+- Live site url: [https://stats-preview-card-component-10.netlify.app/]
+
+### Screenshot
+
+![](screenshot/Screenshot.png);
+
+### Build with
+
+-React
